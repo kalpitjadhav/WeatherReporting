@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weather reporting comparator Test Cases">
+	<test name="Weather report">
+		<classes>
+			<class name="com.ndtv.testscripts.TC_01_UI_validateWeatherDetails"></class>
+			<class name="com.ndtv.testscripts.TC_02_API_validateGetOpenWeatherMap"></class>
+			<class name="com.ndtv.testscripts.TC_03_UI_API_Comparison"></class>
+			
+		</classes>
+	</test>
+</suite> 
